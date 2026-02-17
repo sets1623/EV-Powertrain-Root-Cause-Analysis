@@ -20,3 +20,28 @@ A structured root cause analysis revealed that the instability was not caused by
 - Matplotlib
 
 ## Project Structure
+models/        # Battery, inverter, motor, vehicle models  
+simulation/    # Simulation and plotting scripts  
+*.png          # Result plots  
+*.docx         # Detailed project documentation  
+
+## Results
+- Stable vehicle speed response
+- Realistic motor torque behavior
+- Elimination of oscillatory instability
+
+## Graphical Results
+
+### Vehicle Speed vs Time
+![Vehicle Speed](vehicle_speed_vs_time.png)
+
+### Motor Torque vs Time
+![Motor Torque](motor_torque_vs_time.png)
+
+## Conclusion
+The project demonstrates that performance degradation in EV powertrains can originate from improper mechanical system modeling rather than electrical subsystem limitations. Incorporating vehicle inertia successfully restored stable operation.
+
+## Future Scope
+- Battery degradation modeling
+- Drive cycle-based simulation
+- Fault injection and diagnostics
